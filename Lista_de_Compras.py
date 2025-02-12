@@ -25,8 +25,8 @@ while True:
         try:
             os.system('cls')
             len(lista) >= 1
-            for i, item in enumerate(lista):
-                    print(i, item)
+            for item in lista:
+                print(item)
         except:
             len(lista) == 0
             print('Nada para listar')
