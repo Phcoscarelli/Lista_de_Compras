@@ -29,7 +29,7 @@ while True:
                 print(item)
         except:
             len(lista) == 0
-            print('Nada para listar')
+            print('Não há o que listar')
                 
-    else: print('Opção invalida, tente novamente.') 
+    else: print('Opção inválida, tente novamente.') 
 
